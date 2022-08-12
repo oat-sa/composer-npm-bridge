@@ -12,7 +12,7 @@ use Symfony\Component\Process\ExecutableFinder;
  */
 class NpmClient
 {
-    const DEFAULT_TIMEOUT = 300;
+    const DEFAULT_TIMEOUT = 3000;
 
     /**
      * Create a new NPM client.
