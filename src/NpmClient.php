@@ -47,7 +47,7 @@ class NpmClient
         $this->getcwd = $getcwd;
         $this->chdir = $chdir;
 
-        $this->isNpmPathChecked = false;
+        $this->npmPathChecked = false;
         $this->getTimeout = [$processExecutorClass, 'getTimeout'];
         $this->setTimeout = [$processExecutorClass, 'setTimeout'];
     }
